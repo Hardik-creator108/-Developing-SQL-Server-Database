@@ -61,5 +61,6 @@ CREATE NONCLUSTERED INDEX IDX_CustomerTransactions_PaymentMethodId
 ON [Sales].[CustomerTransactions] ([PaymentMethodID])
 INCLUDE ([CustomerTransactionID],[CustomerID],[TransactionTypeID],[InvoiceID],[AmountExcludingTax],[TaxAmount],[TransactionAmount],[OutstandingBalance],[FinalizationDate],[IsFinalized],[LastEditedBy],[LastEditedWhen])
 GO
+ --STOPPING POINT ON SLIDES 1.2 PAGE 27
 
--- STOPPING POINT ON SLIDES 1.2 PAGE 27
+

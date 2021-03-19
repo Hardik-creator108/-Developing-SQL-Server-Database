@@ -1,2 +1,1 @@
-#  Developing-SQL-Server-Database
- 
+# SQL-Server-Management-Studio
